@@ -1,0 +1,1085 @@
+.dropbtn {
+
+    color: black;
+    background-color:white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: white;
+    color:red;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    color:red;
+}
+
+/*navbar color and padding  */
+.navbar{
+
+    background-color:white !important;
+   padding-bottom: 15px;
+
+
+}
+
+
+/*media query for desktops  */
+
+
+@media only screen and (min-width:768px)
+{
+
+
+
+
+.navbar button{
+
+    padding-top:0px;
+    padding-bottom: -10px;
+}
+
+.navbar-brand img{
+
+padding-top:14px;
+height:80px;
+width:160px;
+}
+
+
+
+
+
+.fa-search{
+
+	padding-top:4px;
+    padding-right:30px;
+}
+
+}
+
+
+
+
+
+
+
+
+/*media query for navbar ipads i think or maybe for devices whose width is less than 768px*/
+
+
+
+
+@media only screen and (max-width:414px)
+{
+
+
+    .navbar{
+
+
+    }
+
+    .navbar-brand img{
+
+        position:relative;
+        height:70px;
+        width:130px;
+        bottom:30px;
+        padding-top: 20px;
+
+    }
+
+
+
+.navbar-header{
+
+    position:relative;
+    top:7px;
+}
+
+
+}
+
+
+/*image height and width initialisation*/
+#firstimage,#secondimage,#thirdimage{
+	height:500px;
+	width:100%;
+}
+
+/* button attributes */
+ .btn{
+	text-transform:uppercase;
+	background:transparent;
+	border:2px solid grey ;
+	border-color:rgb(169,169,169);
+	border-radius:7px;
+	font-size:15px;
+}
+
+
+/*button hover white*/
+.btn:hover{
+	color:white;
+	border:2px solid white;
+}
+
+@media only screen and (min-width:800px) and (max-width:1024px)
+{
+
+
+.firstheading h3{
+	color:white !important;
+	font-weight:bold;
+	font-size:35px;
+	position:relative;
+	bottom:210px;
+	right:195px;
+	text-transform:uppercase;
+	word-spacing: 1px;
+	font-family:sans-serif;
+
+}
+
+.firstpara p{
+	color:white;
+	font-size:25px;
+	position:relative;
+	bottom:220px;
+	right:160px;
+	text-transform:lowercase;
+	word-spacing:2px;
+	font-family:"times";
+}
+
+ .firstbutton .btn{
+	position:relative;
+	bottom:210px;
+	right:315px;
+
+}
+
+}
+
+
+@media only screen and (min-width:1025px) and (max-width:1111px)
+{
+
+.firstheading h3{
+	color:white !important;
+	font-weight:bold;
+	font-size:35px;
+	position:relative;
+	bottom:200px;
+	right:230px;
+	text-transform:uppercase;
+	word-spacing: 1px;
+	font-family:sans-serif;
+
+}
+
+.firstpara p{
+	color:white;
+	font-size:25px;
+	position:relative;
+	bottom:210px;
+	right:190px;
+	text-transform:lowercase;
+	word-spacing:2px;
+	font-family:"times";
+}
+
+.firstbutton .btn{
+	position:relative;
+	bottom:210px;
+	right:350px;
+
+}
+
+}
+
+
+
+@media only screen and (min-width:1112px)
+{
+
+.firstheading h3{
+	color:white;
+	font-weight:bold;
+	font-size:40px;
+	position:relative;
+	bottom:210px;
+	right:260px;
+	text-transform:uppercase;
+	word-spacing: 1px;
+	font-family:sans-serif;
+
+}
+
+.firstpara p{
+	color:white;
+	font-size:30px;
+	position:relative;
+	bottom:220px;
+	right:190px;
+	word-spacing:2px;
+	font-family:"times";
+}
+
+.firstbutton .btn{
+	position:relative;
+	bottom:210px;
+	right:400px;
+
+}
+
+
+}
+
+/*media query for second image starting  */
+
+@media only screen and (min-width:800px) and (max-width:1024px)
+{
+
+.secondheading h3{
+	color:white !important;
+	font-weight:bold;
+	font-size:35px;
+	position:relative;
+	bottom:80px;
+	left:105px;
+	text-transform:uppercase;
+	word-spacing: 1px;
+	font-family:sans-serif;
+
+}
+
+.secondpara p{
+	color:white;
+	font-size:25px;
+	position:relative;
+	bottom:80px;
+	left:105px;
+	text-transform:lowercase;
+	word-spacing:2px;
+	font-family:"times";
+	}
+
+
+.secondbutton .btn{
+	position:relative;
+	bottom:86px;
+	right:-94px;
+
+}
+
+}
+
+@media only screen and (min-width:1025px) and (max-width:1111px)
+{
+
+.secondheading h3{
+	color:white !important;
+	font-weight:bold;
+	font-size:35px;
+	position:relative;
+	bottom:86px;
+	right:-94px;
+	text-transform:uppercase;
+	word-spacing: 1px;
+	font-family:sans-serif;
+
+}
+
+.secondpara p{
+	color:white;
+	font-size:25px;
+	position:relative;
+	bottom:83px;
+	right:-98px;
+	text-transform:lowercase;
+	word-spacing:2px;
+	font-family:"times";
+}
+
+.secondbutton .btn{
+	position:relative;
+	bottom:81px;
+	right:-85px;
+
+}
+
+}
+
+
+
+@media only screen and (min-width:1112px)
+{
+
+.secondheading h3{
+	color:white;
+	font-weight:bold;
+	font-size:40px;
+	position:relative;
+	bottom:79px;
+	right:-98px;
+	text-transform:uppercase;
+	word-spacing: 1px;
+	font-family:sans-serif;
+
+}
+
+.secondpara p{
+	color:white;
+	font-size:30px;
+	position:relative;
+	bottom:78px;
+	right:-108px;
+	word-spacing:2px;
+	font-family:"times";
+}
+
+.secondbutton .btn{
+	position:relative;
+	bottom:84px;
+	right:-101px;
+
+}
+
+
+}
+
+
+/*media query for second image ending  */
+
+
+
+
+
+
+/*media query for third image starting  */
+@media only screen and (min-width:800px) and (max-width:1024px)
+{
+
+.thirdheading h3{
+	color:white !important;
+	font-weight:bold;
+	font-size:35px;
+	position:relative;
+	bottom:-121px;
+	right:163px;
+	text-transform:uppercase;
+	word-spacing: 1px;
+	font-family:sans-serif;
+
+}
+
+.thirdpara p{
+	color:white;
+	font-size:22px;
+	position:relative;
+	bottom:-110px;
+	right:168px;
+	text-transform:lowercase;
+	word-spacing:1px;
+	font-family:"times";
+	}
+
+
+	.thirdbutton .btn{
+	position:relative ;
+	bottom:-100px;
+	right:174px;
+
+}
+
+#qrcimage{
+	position:relative !important;
+	right:-195px !important;
+	top:-151px !important;
+
+}
+
+}
+
+
+@media only screen and (min-width:1025px) and (max-width:1111px)
+{
+
+.thirdheading h3{
+	color:white !important;
+	font-weight:bold;
+	font-size:35px;
+	position:relative;
+	bottom:133px;
+	right:222px;
+	text-transform:uppercase;
+	word-spacing: 1px;
+	font-family:sans-serif;
+
+}
+
+.thirdpara p{
+	color:white;
+	font-size:25px;
+	position:relative;
+	bottom:135px;
+	right:219px;
+	text-transform:lowercase;
+	word-spacing:2px;
+	font-family:"times";
+}
+
+.thirdbutton .btn{
+	position:relative ;
+	bottom:137px;
+	right:220px;
+
+}
+
+}
+
+
+
+@media only screen and (min-width:1112px)
+{
+
+.thirdheading h3{
+	color:white;
+	font-weight:bold;
+	font-size:40px;
+	position:relative;
+	bottom:123px;
+	right:284px;
+	text-transform:uppercase;
+	word-spacing: 1px;
+	font-family:sans-serif;
+
+}
+
+.thirdpara p{
+	color:white;
+	font-size:30px;
+	position:relative;
+	bottom:124px;
+	right:275px;
+	word-spacing:2px;
+	font-family:"times";
+}
+
+.thirdbutton .btn{
+	position:relative;
+	bottom:124px;
+	right:308px;
+
+}
+
+
+}
+
+
+
+/*media query for third image ending  */
+
+
+
+
+
+
+/*media query for fourth image starting  */
+@media only screen and (min-width:800px) and (max-width:1024px)
+{
+
+.fourthheading h3{
+	color:white !important;
+	font-weight:bold;
+	font-size:35px;
+	position:relative;
+	bottom:118px;
+	right:-165px;
+	text-transform:uppercase;
+	word-spacing: 1px;
+	font-family:sans-serif;
+
+}
+
+.fourthpara p{
+	color:white;
+	font-size:25px;
+	position:relative;
+	bottom:125px;
+	right:-131px;
+	text-transform:lowercase;
+	word-spacing:2px;
+	font-family:"times";
+	}
+
+
+	.fourthbutton .btn{
+	position:relative;
+	bottom:127px;
+	right:-21px;
+
+}
+
+}
+
+@media only screen and (min-width:1025px) and (max-width:1111px)
+{
+
+.fourthheading h3{
+	color:white !important;
+	font-weight:bold;
+	font-size:35px;
+	position:relative;
+	bottom:118px;
+	right:-165px;
+	text-transform:uppercase;
+	word-spacing: 1px;
+	font-family:sans-serif;
+
+}
+
+.fourthpara p{
+	color:white;
+	font-size:25px;
+	position:relative;
+	bottom:125px;
+	right:-131px;
+	text-transform:lowercase;
+	word-spacing:2px;
+	font-family:"times";
+}
+
+.fourthbutton .btn{
+	position:relative;
+	bottom:127px;
+	right:-20px;
+
+}
+
+}
+
+
+
+@media only screen and (min-width:1112px)
+{
+
+.fourthheading h3{
+	color:white;
+	font-weight:bold;
+	font-size:40px;
+	position:relative;
+	bottom:118px;
+	right:-165px;
+	text-transform:uppercase;
+	word-spacing: 1px;
+	font-family:sans-serif;
+
+}
+
+.fourthpara p{
+	color:white;
+	font-size:30px;
+	position:relative;
+	bottom:125px;
+	right:-131px;
+	word-spacing:2px;
+	font-family:"times";
+}
+
+.fourthbutton .btn{
+	position:relative;
+	bottom:127px;
+	right:4px;
+
+}
+
+
+}
+
+/*media query for fourth ending  */
+
+
+/*input field background and space setting  */
+
+
+/*carousel 2 settings */
+#secondcarousel{
+	background-image:url("pattern1.jpg");
+}
+
+
+/*properties images size and attributes settings*/
+
+
+#image1 img{
+	padding-bottom:10px;
+
+}
+
+#image2 img{
+	padding-bottom:10px;
+
+}
+
+#image3 img{
+	padding-bottom:10px;
+
+}
+
+#image4 img{
+	padding-right:0px;
+	padding-top:3px;
+
+}
+
+#image5 img{
+	padding-right:0px;
+	padding-top:3px;
+
+}
+
+#image6 img{
+	padding-left:0px;
+	padding-top:3px;
+}
+
+/*agents images padding and attributes settings   */
+
+
+
+.price{
+position: absolute;
+    top: 10px;
+    left: 9px;
+    background-color: #df4a43;
+    color: white;
+    padding:
+    z-index:20px;
+    height:30px;
+    width:190px;
+
+}
+
+.borderclass{
+	border-style: solid;
+	border-color:grey;
+	text-align:center;
+	background-color:silver;
+}
+
+.borderclass .border{
+	border-style: solid;
+	border-color:grey;
+	text-align:center;
+	background-color:silver;
+}
+
+/*footer attributes */
+.footer{
+background-color:#F5F5F5;
+}
+
+.footer img{
+padding-bottom:10px;
+
+}
+
+.footer p{
+padding-left:10px;
+}
+
+.footer a:hover{
+color:red!important;
+}
+
+
+/*price tag and agents settings starting */
+.pricetag{
+  position:absolute;
+  top:26px;
+  left:13px;
+  background-color:#FD2851;
+  height:45px;
+  width:163px;
+  font-weight:italic;
+  border-radius:0px 8px 8px 0px;
+}
+
+.pricetag i{
+  color:white;
+margin-left:4px;
+font-size:20px;
+}
+
+#span1{
+  margin-left:2px;
+  color:white;
+  font-size:15px;
+}
+
+#span2{
+position:absolute;
+  margin-left:10px;
+  color:white;
+  font-weight:bold;
+  font-size:19px;
+  top:-9px;
+  right:76px;
+}
+
+/* corner triangle */
+.triangle-left{
+	width: 0;
+	height: 0;
+	border-top: 0px solid transparent;
+	border-right: 12px solid darkred;
+	border-bottom: 18px solid transparent;
+  position:absolute;
+  bottom:-18px;
+  right:151px;
+
+}
+/*images settings  */
+#prop1,
+#prop2,
+#prop3,
+#prop4,
+#prop5,
+#prop6{
+  margin:10px;
+}
+
+/*lower border box settings  */
+.lowerbox i{
+  font-size:30px;
+  margin:10px;
+  color:#5D6D7E;
+}
+
+
+.lowerbox{
+  border-style:solid;
+  border-color:silver;
+  border-width:2px;
+  border-top:transparent;
+  top:-10px;
+  left:10px;
+  position:relative;
+}
+
+#bathtext{
+
+  margin:8px;
+  color:#283747;
+}
+
+#bedtext{
+  margin:8px;
+  color:#283747;
+}
+
+#recentheadtext{
+  font-size: 40px;
+  font-family: sans-serif;
+  font-weight:normal;
+  color:#E74C3C;
+  word-spacing: 2px;
+  text-decoration:underline;
+  text-decoration-style: double;
+  text-transform: capitalize;
+  text-transform: uppercase;
+  position:relative;
+left:244px;
+top:-14px;
+margin-top:60px;
+margin-bottom:10px;
+}
+
+#aboutheadtext{
+  font-size: 40px;
+  font-family: sans-serif;
+  font-weight:normal;
+  color:#E74C3C;
+  word-spacing: 2px;
+  text-decoration:underline;
+  text-decoration-style: double;
+  text-transform: capitalize;
+  text-transform: uppercase;
+  position:relative;
+left:67px;
+top:-22px;
+}
+
+
+#agentheadtext{
+  font-size: 40px;
+  font-family: sans-serif;
+  font-weight:normal;
+  color:#E74C3C;
+  word-spacing: 2px;
+  text-decoration:underline;
+  text-decoration-style: double;
+  text-transform: capitalize;
+  text-transform: uppercase;
+  position:relative;
+left:24px;
+top:-10px;
+margin-top:30px;
+margin-bottom:20px;
+}
+
+/* agents settings ending*/
+
+
+/*secound carousel starting*/
+#secondcarousel{
+
+    background-image: url(pattern1.jpg);
+    background-size: 1000px 600px;
+}
+
+
+/*first image and text settings */
+.carouselfirstimage img{
+    height:400px;width:600px;margin-bottom:49px;margin-left:78px;
+}
+
+
+.carouselfirstimage #back1{
+    height:400px;width:300px;background-color:#F9264F;margin-bottom:49px;margin-left:-67px;
+}
+
+
+.text1 h2{
+    font-weight:italic;
+    font-size:35px;
+    color:white;
+    font-family:sans-serif;
+}
+
+.text1 p{
+   font-weight:italic;
+    font-size:15px;
+    color:white;
+    font-family:sans-serif;
+    margin-top:20px;
+}
+
+.text1 .btn{
+    background:transparent;
+    border-style:solid;
+    border-color:silver;
+    border-radius:7px;
+    color:silver;
+    font-size:15px;
+    margin-top:10px;
+    border-width:2px;
+}
+
+.text1 .btn:hover{
+    color:white;
+    border-color:white;
+}
+
+
+
+
+/*second image and text settings */
+
+.carouselsecondimage img{
+
+height:400px;width:600px;margin-bottom:49px;margin-left:78px;
+
+}
+
+
+.carouselsecondimage #back2{
+    height:400px;width:300px;background-color:#F9264F;margin-bottom:49px;margin-left:-67px;
+}
+
+
+
+.text2 h2{
+    font-weight:italic;
+    font-size:35px;
+    color:white;
+    font-family:sans-serif;
+}
+
+.text2 p{
+   font-weight:italic;
+    font-size:15px;
+    color:white;
+    font-family:sans-serif;
+    margin-top:20px;
+}
+
+.text2 .btn{
+    background:transparent;
+    border-style:solid;
+    border-color:silver;
+    border-radius:7px;
+    color:silver;
+    font-size:15px;
+    margin-top:10px;
+    border-width:2px;
+}
+
+.text2 .btn:hover{
+    color:white;
+    border-color:white;
+}
+
+
+
+
+/*third image and text settings*/
+
+.carouselthirdimage img{
+    height:400px;width:600px;margin-bottom:49px;margin-left:78px;
+}
+
+
+.carouselthirdimage #back3{
+    height:400px;width:300px;background-color:#F9264F;margin-bottom:49px;margin-left:-67px;
+}
+
+
+
+.text3 h2{
+    font-weight:italic;
+    font-size:35px;
+    color:white;
+    font-family:sans-serif;
+}
+
+.text3 p{
+   font-weight:italic;
+    font-size:15px;
+    color:white;
+    font-family:sans-serif;
+    margin-top:20px;
+}
+
+.text3 .btn{
+    background:transparent;
+    border-style:solid;
+    border-color:silver;
+    border-radius:7px;
+    color:silver;
+    font-size:15px;
+    margin-top:10px;
+    border-width:2px;
+}
+
+.text3 .btn:hover{
+    color:white;
+    border-color:white;
+}
+/*second carousel ending */
+
+
+/*parallax effect settings   */
+
+
+.parallax-window {
+	min-height: 400px;
+	background: transparent;
+	display:block;
+	background-attachment:fixed;
+}
+
+.parallax-window h1{
+  font-size: 30px;
+  color:white;
+  text-decoration-line:underline;
+  text-decoration-style:double;
+  font-weight:normal;
+  text-transform:uppercase;
+  text-align:center;
+padding-top:20px;
+}
+
+.parallax-window p{
+  font-size:1.5vw;
+  color:white;
+  border-style:solid;
+  border-width:1px;
+  border-color:grey;
+  padding:10px;
+  border-radius:15px;
+  position: relative;
+  top:60px;
+  margin:20px;
+
+}
+
+.parallax-window img{
+  position:relative;
+  top:119px;
+  left:450px;
+  height:6.5vw;
+  width:6.5vw;
+
+}
+
+
+.imgtext{
+  color:white;
+  font-size:1.1vw;
+  text-transform: capitalize;
+  border-style:solid;
+  border-color:grey;
+  border-width:1px;
+  background-color:#5F6A6A;
+  border-radius: 2px;
+  height:82px;
+  width:120px;
+  position:relative;
+  top:40px;
+  left:530px;
+
+}
+
+#featprop{
+  color:#34495E;
+  text-decoration-style:double;
+  text-decoration-line:underline;
+padding-bottom:30px;
+padding-top:30px;
+}

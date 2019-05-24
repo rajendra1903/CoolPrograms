@@ -1,0 +1,209 @@
+
+
+/*navigation bar*/
+
+.navbar
+{
+background-color: salmon !important;
+    text-transform: uppercase;
+    font-family: 'PT Sans Narrow', Arial, sans-serif;
+    font-weight: 700;
+}
+
+.navbar a 
+{
+color:peachpuff;
+
+}
+
+.navbar a:hover {
+    
+    opacity: 1;
+    background-color: lightgreen !important;
+}
+
+
+/*header*/
+
+.header
+{
+	padding-top:60px;
+	background-image: url(../images/bg3.jpg);
+}
+
+.header img
+{
+	height:500px;
+	width:550px;
+}
+
+/*services*/
+
+.services i{
+	
+	height:60px;
+	width:60px;
+	padding-top:30px;
+	padding-left:20px;
+	padding-bottom:8px;
+	color:black;
+	background-color:slateblue;
+	border-radius:60px;
+	margin-left:50px;
+	
+}
+
+.services{
+	
+	padding-bottom:50px;
+	background-color:lightpink;
+}
+
+.services h1{
+	
+	font-family:sans-serif;
+}
+
+/*pricing*/
+
+.pricing
+{
+	background-color:peachpuff;
+	
+}
+
+.pricing .packages
+{
+	padding:30px;
+	border-radius:30px;
+	
+}
+
+/*team*/
+
+.team
+{
+	padding-bottom:40px;
+	padding-top:50px;
+}
+
+.team h2,
+.team p
+{
+	text-align:center;
+	
+}
+
+.team p
+{
+padding-bottom:30px;
+}
+
+
+.team img
+{
+	height:120px;
+	width:120px;
+	
+}
+
+.team a:hover i {
+    
+    background-color: palegreen;
+}
+
+/*clients*/
+
+.clients img{
+	
+	height:100px;
+	width:180px;
+}
+
+.clients{
+	padding-top:30px;
+	padding-bottom:40px;
+	background-color:greenyellow;
+}
+
+.clients h2,
+.clients p
+{
+	text-align:center;
+	font-family:times;
+	
+}
+
+.clients p
+{
+	padding-bottom:30px;
+	font-size:20px;
+}
+
+/*contacts form*/
+
+.contact
+{
+	padding-bottom:60px;
+}
+
+.contact h2,
+.contact p
+{
+	text-align:center;
+}
+
+.contact p
+{
+	padding-bottom:20px;
+}
+
+.contact .input-group
+{
+	padding-bottom:25px;
+}
+
+.contact .btn:hover {
+    
+    background-color: black !important;
+    color: seagreen !important;
+}
+
+
+/*footer*/
+
+.footer
+{
+	padding-top:60px;
+	background-color:black;
+}
+
+.footer p
+{
+	color:bisque;
+}
+
+.footer h4
+{
+	color:linen;
+}
+
+.footer .social
+{
+	border-style:solid;
+	padding:5px;
+}
+
+.footer input
+{
+	margin-top:20px;
+	margin-right:20px;
+}
+
+.footer .btn:hover 
+{
+	color:dimgray;
+	background-color:lightskyblue;
+}
+
+
